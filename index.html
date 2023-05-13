@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Хрестики Нулики</title>
+
+</head>
+  <body>
+    <section class="top"> </section>
+
+    <section class="game">
+      <table id="table">
+        <thead>
+            <tr>
+                <th colspan="3">Хрестики Нулики</th>
+            </tr>
+        </thead>
+        <tbody id="gameBody">
+            <tr>
+                <td id="tdGame"  data-index="0"></td> 
+                <td id="tdGame" data-index="1"></td>
+                <td id="tdGame" data-index="2"></td>
+            </tr>
+
+            <tr>
+              <td id="tdGame" data-index="3"></td>
+              <td id="tdGame" data-index="4"></td>
+              <td id="tdGame" data-index="5"></td>
+          </tr>
+
+          <tr>
+            <td id="tdGame" data-index="6"></td>
+            <td id="tdGame" data-index="7"></td>
+            <td id="tdGame" data-index="8"></td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    <div class="result"> <h3>Рахунок</h3>
+      <div class="resultBlock">
+        <div id="youName"></div>
+        <div id="xWin">0</div>
+      </div>
+      
+      <div class="resultBlock">
+        <div id="compName">Комп'ютер</div>
+        <div id="yWin">0</div>
+      </div>
+      
+    </div>
+    </section>
+
+    
+
+
+
+
+
+  <footer> Developed by Yuriy Matsyuk</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
